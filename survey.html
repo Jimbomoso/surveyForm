@@ -16,35 +16,37 @@
 </head>
 
 <body>
-    <div>
-        <h1 id='title'> Survey Form </h1>
+    <div id='content'>
+        <header>
+            <h1 id='title'> Survey Form </h1>
 
-        <p id='description'> This is a sample form for freeCodeCamp</p>
+            <p id='description'> This is a sample form for freeCodeCamp</p>
+        </header>
 
         <form id='survey-form'>
             <label for='name-label'> Name: </label>
-            <input id='name' type='text' name='name' placeholder='enter name' required>
+            <input id='name' type='text' name='name' placeholder='enter name' required> <br>
             <label for='email-label'> Email: </label>
-            <input id='email' type='email' name='email' placeholder='enter email' required>
-            <label for='number-label'> Age: </label>:
-            <input id='number' type='number' name='number' min='1' max='130' placeholder='age'>
-            <lable for='sex-label'> Sex: </lable>
+            <input id='email' type='email' name='email' placeholder='enter email' required> <br>
+            <label for='number-label'> Age: </label>
+            <input id='number' type='number' name='number' min='1' max='130' placeholder='age'> <br>
+            <label for='sex-label'> Sex: </label>
             <select id='dropdown' name='sex'>
                 <option value='Female'> Female </option>
                 <option value='Male'> Male </option>
                 <option value='Other'> Other </option>
                 <option value='Select one' selected> choose </option>
-            </select>
-            <lable for='opinion-label'> Is this a weird form? </lable>
+            </select> <br> <br>
+            <label for='opinion-label'> Is this a weird form? </label> <br> <br>
             <input type='radio' name='opinion' value='yes' checked> Yes <br>
             <input type='radio' name='opinion' value='no'> No <br>
-            <input type='radio' name='opinion' value='idk'> IDK <br>
-            <lable for='better-label'> Who could do better? (Checck all that apply)</lable>
+            <input type='radio' name='opinion' value='idk'> IDK <br> <br>
+            <label for='better-label'> Who could do better? (Checck all that apply)</label> <br> <br>
             <input type='checkbox' name='better' value='Grandma'> Grandman <br>
             <input type='checkbox' name='better' value='Trump'> Trump <br>
-            <input type='checkbox' name='better' value='Dog'> My Dog <br>
-            <lable for='additonal-comments'> Additonal comments:</lable>
-            <input type='textarea' name='comments'>
+            <input type='checkbox' name='better' value='Dog'> My Dog <br> <br>
+            <label for='additonal-comments'> Additonal comments:</label> <br>
+            <input type='textarea' name='comments'> <br>
             <input id='submit' type='submit'>
         </form>
     </div>
