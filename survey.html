@@ -2,17 +2,21 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Survey Form</title>
-        <meta name="description" content="surveyForm">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="description" content="surveyForm">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
         <h1 id='title'> Survey Form </h1>
 
         <p id='description'> This is a sample form for freeCodeCamp</p>
@@ -21,7 +25,7 @@
             <label for='name-label'> Name: </label>
             <input id='name' type='text' name='name' placeholder='enter name' required>
             <label for='email-label'> Email: </label>
-            <input id='email' type='email' name='email'placeholder='enter email' required>
+            <input id='email' type='email' name='email' placeholder='enter email' required>
             <label for='number-label'> Age: </label>:
             <input id='number' type='number' name='number' min='1' max='130' placeholder='age'>
             <lable for='sex-label'> Sex: </lable>
@@ -39,12 +43,13 @@
             <input type='checkbox' name='better' value='Grandma'> Grandman <br>
             <input type='checkbox' name='better' value='Trump'> Trump <br>
             <input type='checkbox' name='better' value='Dog'> My Dog <br>
-
-
-
+            <lable for='additonal-comments'> Additonal comments:</lable>
+            <input type='textarea' name='comments'>
+            <input id='submit' type='submit'>
         </form>
+    </div>
 
-        
-        <script src="" async defer></script>
-    </body>
+    <script src="" async defer></script>
+</body>
+
 </html>
