@@ -6,14 +6,20 @@ body {
 }
 
 #content {
-    text-align: center;
     padding: 10%;
+}
+
+header {
+    background: gray;
+    color: white;
+    border: 20px solid white;
+    text-align: center;
 }
 
 #survey-form {
     background: white;
-    text-align: left;
     padding: 5%;
+    /* text-align: center; */
 }
 
 input {
@@ -21,13 +27,13 @@ input {
     padding: 10px;
 }
 
-header {
-    background: gray;
-    color: white;
-    padding: 1%;
-}
-
 label {
     font-weight: bold;
     margin: 10px;
 }
+
+#submit {
+    background: darkgreen;
+    color: white;
+}
+
